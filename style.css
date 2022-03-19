@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  body {
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #title {
+    font-family: "Bebas Neue", cursive;
+    font-size: 8vh;
+    background-color: #020659;
+    color: #fd7672;
+    padding: 1.2em 2em;
+    text-align: center;
+  }
+  .Bold {
+    font-family: "Bebas Neue", cursive;
+    font-size: 5vh;
+    background-color: #010440;
+    color: #fd7672;
+    padding: 12em 1.8em;
+    text-align: center;
+  }
+  #quote {
+    font-family: "Bebas Neue", cursive;
+    font-size: 6vh;
+    background-color: #020659;
+    color: #fd7672;
+    padding: 2em 1em;
+    text-align: center;
+    margin: 2em 0em 2em 0em;
+  }
+  cite {
+    font-size: 4vh;
+    text-align: center;
+    color: #fd7672;
+  }
+  
+  #tribute-info {
+    font-family: "Bebas Neue", cursive;
+    font-weight: 500;
+    font-size: 4em;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #020659;
+  }
+  .accordion {
+    width: 100%;
+    height: auto;
+    font-family: "Bebas Neue", cursive;
+    background-color: #020659;
+    color: #fd7672;
+    padding: 20px 48px;
+    font-size: 1.8em;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  .active .accordion:hover {
+    background-color: #031ca6;
+  }
+  .panel {
+    font-family: "Montserrat", sans-serif;
+    padding: 4px 40px;
+    background-color: #020659;
+    color: #ffffff;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  p {
+    font-size: 1.4em;
+    padding: 24px;
+  }
+  #main {
+    margin: 2em;
+    padding: 2em;
+    text-align: center;
+  }
+  .Headline {
+    margin-top: 2em;
+    margin-bottom: 4em;
+  }
+  .head {
+    font-size: 1.6em;
+    color: #020659;
+    text-align: left;
+  }
+  .dropcap {
+    background-color: #abff36;
+    color: #020659;
+    font-size: 6rem;
+    float: left;
+    line-height: 1;
+    padding: 0.1em 0.2em;
+    margin-right: 0.2em;
+  }
+  #tribute-link {
+    font-family: "Bebas Neue", cursive;
+    color: #fd7672;
+    font-size: 1.3em;
+  }
+  #img-div #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+  }
+  .container {
+    background: #020659;
+    padding: 8.5em;
+  }
+  .accordion:after {
+    content: "\02795";
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  .active:after {
+    content: "\2796";
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    * {
+      max-width: 25%;
+      height: auto; 
+    }
+  }
+  
