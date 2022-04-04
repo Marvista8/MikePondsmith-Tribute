@@ -23,29 +23,33 @@ body {
 
 #img-div, #image, #video, #img {
     max-width: 100%;
-    height: auto;
-}
-
-#video {
-    height: 65vh;
 }
 
 /*font-styling*/
 
 h1, h2 #quote {
     font-family: "Bebas Neue", cursive;
-
 }
 
 p {
+    font-family: 'Monserrat', sans-serif;
     font-size: 1.5em;
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 2rem;
+    padding: 1.3rem;
     margin-bottom: 1rem;
 }
 
+.dropcap {
+    font-size: 2.5em;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: 800;
+}
+
 .head {
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
 }
 
 #quote {
@@ -60,6 +64,14 @@ p {
     padding-bottom: 2rem;
 }
 
+#tribute-info {
+    color: #020228;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-size: 3.5em;
+    font-family: 'Bebas Neue', cursive;
+}
+
 .Bold {
     font-size: 2.5em;
     height: 25vh;
@@ -71,3 +83,98 @@ p {
     font-size: 1.5em;
     padding: 4rem 3rem;
 }
+
+/* other stylings*/
+
+.accordion {
+    width: 100%;
+    height: auto;
+    font-family: "Bebas Neue", cursive;
+    background-color: #020659;
+    color: #fd7672;
+    padding: 20px 48px;
+    font-size: 1.8em;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+
+  .active .accordion:hover {
+    background-color: #031ca6;
+  }
+
+   .panel {
+    font-family: "Montserrat", sans-serif;
+    padding: 4px 40px;
+    background-color: rgba(16, 5, 102, 0.673);
+    color: #ffffff;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .panel:hover {
+      background-color: #3119b6;
+  }
+
+  .accordion:after {
+    content: "\02795";
+    font-size: 13px;
+    color: rgb(119, 119, 119);
+    float: right;
+    margin-left: 5px;
+  }
+  .active:after {
+    content: "\2796";
+  }
+
+  #image {
+      padding: 20px;
+      margin-top: 2rem;
+  }
+
+  #img {
+      padding-bottom: 1.5rem;
+  }
+
+  .container {
+    background: #010327;
+    padding: 2rem;
+  }
+
+  #tribute-link {
+    color: #fd7672;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  @media screen and (max-width: 450px) {
+      #video {
+          max-width: 100%;
+          height: auto;
+      }
+      .head {
+          font-size: 1em;
+      }
+      #tribute-info {
+          font-size: 2em;
+      }
+      #tribute-link {
+          font-size: 0.9em;
+      }
+  }
+
+  @media screen and (max-width: 400px) {
+      p {
+          max-width: 100%;
+          height: auto;
+          font-size: 0.9em;
+          padding-top: 16px;
+          padding-bottom: 12px;
+      }
+      .panel {
+          max-width: 100%;
+          height: auto;
+      }
+  }

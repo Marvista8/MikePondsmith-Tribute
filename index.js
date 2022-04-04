@@ -12,3 +12,7 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+let darkenPage = () => {
+  
+}
