@@ -31,7 +31,7 @@ h1, h2 #quote {
     font-family: "Bebas Neue", cursive;
 }
 
-p {
+p, ul {
     font-family: 'Monserrat', sans-serif;
     font-size: 1.5em;
     padding: 1.3rem;
@@ -86,7 +86,7 @@ strong {
 #quote {
     background-color: #020659;
     color: #fd7672;
-    font-size: 1.5em;
+    font-size: 2.5em;
     padding: 4rem 3rem;
     margin-top: 4rem;
 }
@@ -108,22 +108,33 @@ strong {
   }
 
   .active .accordion:hover {
-    background-color: #031ca6;
+    background-color: #3d16be;
   }
 
    .panel {
     font-family: "Montserrat", sans-serif;
-    padding: 4px 40px;
+    padding: 10px 40px;
     background-color: rgba(16, 5, 102, 0.673);
     color: #ffffff;
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    scroll-behavior: smooth;
   }
 
   .panel:hover {
       background-color: #3119b6;
+  }
+
+  li {
+      padding-top: 5px;
+  }
+
+  li:hover {
+      background-color: #634bea;
+      padding-top: 14px;
+      padding-bottom: 14px;
   }
 
   .accordion:after {
@@ -167,8 +178,11 @@ strong {
       #tribute-info {
           font-size: 2em;
       }
-      #tribute-link {
+      #tribute-link, ul {
           font-size: 0.9em;
+      }
+      #quote {
+          font-size: 1.2em;
       }
   }
 
