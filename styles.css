@@ -38,6 +38,11 @@ p {
     margin-bottom: 1rem;
 }
 
+strong {
+    font-weight: 600;
+    color: #fd7672;
+}
+
 .dropcap {
     font-size: 2.5em;
     padding-left: 10px;
