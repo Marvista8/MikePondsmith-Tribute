@@ -17,4 +17,4 @@ I want to dedicate this website to one of my inspirations, Mr. Michael Alyn Pond
 - Games
 - Awards and Recognitions
 
-This is currently a work in progress and will be updated until completed.
+This project primarily uses HTML and CSS with a bit of interactivity with vanilla JavaScript. There is no framework or library associated with this project.
