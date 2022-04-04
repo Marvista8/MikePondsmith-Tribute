@@ -18,7 +18,7 @@ body {
     position: fixed;
     margin-left: -50vw;
     z-index: -1;
-    opacity: calc(0.4);
+    opacity: calc(0.5);
 }
 
 #img-div, #image, #video, #img {
@@ -54,7 +54,8 @@ strong {
     margin-bottom: 6rem;
     background-color: rgba(255, 255, 255, 0.6);
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.6em;
+    font-weight: 500;
 }
 
 #quote {
@@ -62,11 +63,11 @@ strong {
 }
 
 #title {
-    background-color: #020659;
+    background-color: #00023c;
     color: #fd7672;
     text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 #tribute-info {
@@ -87,6 +88,7 @@ strong {
     color: #fd7672;
     font-size: 1.5em;
     padding: 4rem 3rem;
+    margin-top: 4rem;
 }
 
 /* other stylings*/
@@ -137,7 +139,7 @@ strong {
 
   #image {
       padding: 20px;
-      margin-top: 2rem;
+      margin-top: 4rem;
   }
 
   #img {
